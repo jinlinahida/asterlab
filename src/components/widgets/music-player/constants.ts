@@ -7,6 +7,14 @@ export const DEFAULT_VOLUME = 0.7;
 export const LOCAL_PLAYLIST: Song[] = [
 	{
 		id: 1,
+		title: "Heart Shaker",
+		artist: "TWICE",
+		cover: "assets/music/cover/twice.webp",
+		url: "assets/music/url/twice.mp3",
+		duration: 187,
+	},
+	{
+		id: 2,
 		title: "口笛で愛は歌えない",
 		artist: "Dazbee",
 		cover: "assets/music/cover/dazbee.webp",
@@ -14,7 +22,7 @@ export const LOCAL_PLAYLIST: Song[] = [
 		duration: 0,
 	},
 	{
-		id: 2,
+		id: 3,
 		title: "ひとり上手",
 		artist: "Kaya",
 		cover: "assets/music/cover/hitori.webp",
@@ -22,7 +30,7 @@ export const LOCAL_PLAYLIST: Song[] = [
 		duration: 240,
 	},
 	{
-		id: 3,
+		id: 4,
 		title: "眩耀夜行",
 		artist: "ス리즈ブーケ",
 		cover: "assets/music/cover/xryx.webp",
@@ -30,7 +38,7 @@ export const LOCAL_PLAYLIST: Song[] = [
 		duration: 180,
 	},
 	{
-		id: 4,
+		id: 5,
 		title: "春雷の頃",
 		artist: "22/7",
 		cover: "assets/music/cover/cl.webp",
