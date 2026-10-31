@@ -113,6 +113,14 @@ export const devicesData: DeviceCategory = {
 			link: "https://gopro.com/zh/cameras/mission1",
 		},
 		{
+			name: "DJI Pocket 2",
+			image: "/images/device/pocket2.webp",
+			specs: "Black / 64MP / 4K video",
+			description:
+				"Pocket-sized and extremely portable 3-axis gimbal camera with 4K/60fps video, 64MP photos, and intelligent tracking for capturing smooth cinematic footage.",
+			link: "https://www.dji.com/pocket-2",
+		},
+		{
 			name: "SONY A6000",
 			image: "/images/device/sonya6000.webp",
 			specs: "black / 24MP / 4K video",
