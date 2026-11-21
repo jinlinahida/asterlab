@@ -12,14 +12,7 @@ export interface DiaryItem {
 }
 
 // 示例日记数据
-const diaryData: DiaryItem[] = [
-	{
-		id: 1,
-		content:
-			"cts红人粉混过韩娱吗？连注水和代投都分不清，还开wcn女爱豆hq，要不要点脸？皮下是群什么生物？不知道自己万人雷吗？前面还拿个自家的辱追文案看都没看到处发，有点脑子吗，不就是纯为了吵架吗？整个圈子就是这么被搞乱的。我真的好心疼我心妹",
-		date: "2026-07-20T21:30:00Z"
-	},
-];
+const diaryData: DiaryItem[] = [];
 
 // 获取日记列表（按时间倒序）
 export const getDiaryList = (limit?: number) => {
